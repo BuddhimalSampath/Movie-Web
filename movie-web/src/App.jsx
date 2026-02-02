@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Search from './components/Search.jsx'
 import './App.css'
 
 const App = () => {
@@ -14,7 +12,7 @@ const App = () => {
           <h1> Find <span classname="text-gradient">Movies</span> you enjoy without the hassle</h1>
         </header>
 
-        <p>Search</p>
+        <Search />
       </div>
 
     </main>
